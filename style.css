@@ -120,13 +120,35 @@ img{
 
 
 @media (max-width:1160px){
-   .content{
-    flex-direction: column;
-   }
+.content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center; /* بيوسطن النصوص اللي جوه */
+        width: 100%;
+        height: auto; /* عشان المحتوى ميهربش لو طويل */
+        margin-top: 20px;
+    }
     
    .content .image, .content .text{
     width: 80%;
    }
+
+   p{
+    max-width: 200px;
+    margin: auto;
+   }
+.image {
+    width: 100%; /* عشان يضمن إنه واخد عرض الشاشة في الموبايل */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 330px;
+    height: auto; /* عشان الصورة متتمطش */
+}
    body::after{
 clip-path: circle(60% at bottom)
 }
