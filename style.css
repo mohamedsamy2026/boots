@@ -124,9 +124,9 @@ img{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        text-align: center; /* بيوسطن النصوص اللي جوه */
+        text-align: center;
         width: 100%;
-        height: auto; /* عشان المحتوى ميهربش لو طويل */
+        height: auto; 
         margin-top: 20px;
     }
     
@@ -134,10 +134,11 @@ img{
     width: 80%;
    }
 
-   p{
-    max-width: 200px;
+.content .content-text p {
+    width: 100%; /* أو الغي الـ width خالص */
+    text-align: center;
     margin: auto;
-   }
+}
 .image {
     width: 100%; /* عشان يضمن إنه واخد عرض الشاشة في الموبايل */
     display: flex;
