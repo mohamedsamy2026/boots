@@ -114,7 +114,7 @@ header nav ul li a:hover{
 }
 
 img{
-    width: 400px;
+    width: 550px;
 }
 
 
@@ -147,7 +147,7 @@ img{
 }
 
 img {
-    width: 550px;
+    width: 330px;
     height: auto; /* عشان الصورة متتمطش */
 }
    body::after{
@@ -166,4 +166,5 @@ nav ul li a{
 
 
    }
+
 
